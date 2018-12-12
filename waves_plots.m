@@ -5,7 +5,7 @@ Data = load('datas/ondas/control_signal_degree.mat');
 plot(Data.control_signal_degree.time,Data.control_signal_degree.signals.values);
 
 % Title
-title('Degree Wave')
+%title('Degree Wave')
 
 % Axis X
 xlabel('t (s)')
@@ -23,7 +23,7 @@ a = Data.control_signal_square;
 plot(a(:,1),a(:,2));
 
 % Title
-title('Random Wave')
+%title('Random Wave')
 
 % Axis X
 xlabel('t (s)')
@@ -41,7 +41,7 @@ a = Data.control_signal_square;
 plot(a(:,1),a(:,2));
 
 % Title
-title('Sawtooth Wave')
+%title('Sawtooth Wave')
 
 % Axis X
 xlabel('t (s)')
@@ -59,7 +59,7 @@ a = Data.control_signal_square;
 plot(a(:,1),a(:,2));
 
 % Title
-title('Sine Wave')
+%title('Sine Wave')
 
 % Axis X
 xlabel('t (s)')
@@ -77,7 +77,7 @@ a = Data.control_signal_square;
 plot(a(:,1),a(:,2));
 
 % Title
-title('Square Wave')
+%title('Square Wave')
 
 % Axis X
 xlabel('t (s)')
